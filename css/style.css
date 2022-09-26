@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* global Element  */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+body p{
+    color: #767677;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+/* Header Start  */
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 1;
+}
+header div,nav{
+    float: left;
+}
+
+header .logo{
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}
+header .logo img{
+    width: 180px;
+}
+header nav{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+header nav ul li{
+    padding: 22px;
+    float: left;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+header nav li a{
+    color:#222222;
+}
+header nav ul li a:hover{
+    color: #8592FE;
+    transition: ease-in-out 0.6s;
+}
+header nav ul li ul{
+    display: none;
+    border: 1px solid #fff;
+    width: 200px;
+    padding:0px 10px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-top: 15px;
+    position: fixed;
+    box-shadow: 0px 0px 30px 2px rgba(82, 79, 79, 0.583);
+}
+header .nav ul li:hover > ul{
+    display: block;
+    transition: all 0.4s;
+}
+
+header nav li > ul li{
+    float: none;
+    padding: 0;
+    line-height: 50PX;
+}
+header nav li ul li ul{
+    float: right;
+    background-color:#fff;
+    top: 100px;
+    right: 16%;
+}
+/* Header End  */
+/* section one Start  */
+#sec1{
+    width: 100%;
+    background-color: #F8F9FE;
+    float: left;
+    padding:150px 90px 0px 90px ;
+}
+#sec1 div{
+    float: left;
+}
+.hero-part{
+    width: 100%;
+}
+.writting1{
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.writting1 h3{
+    text-align: start;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.writting1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.writting1 p{
+    color: #767677;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    background:linear-gradient(to right, #8292FF,#67BBF7) ;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0px 0px 20px  #8292FF;
+    transition: ease-in-out 0.7s;
+}
+.img{
+    width:40%;
+}
+.img img{
+    width: 100%;
+}
+/* sec one end  */
+/* sec two start  */
+#sec2{
+    width: 100%;
+    float: left;
+    padding: 120px 50px 0px 100px;
+    background-color: #FEFFFE;
+}
+#sec2 div{
+    float: left;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+}
+.writting2{
+    width: 50%;
+    padding-left: 140px;
+}
+.writting2 h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 15px ;
+}
+.writting2 h1{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.writting2 p{
+    color: #767677;
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+/* Sec Two End  */
+/* sec three start  */
+#sec3{
+    width: 100%;
+    float: left;
+    padding: 100px 100px;
+    background-color: rgb(254,254,255);
+}
+#sec3 h4{
+    color: rgb(35,35,34);
+}
+.sec3-head{
+    width: 100%;
+    text-align: center;
+}
+.sec3-head h1{
+    padding-bottom:20px;
+    color: rgb(35,35,34);
+}
+.sec3-head p{
+    width: 50%;
+    margin: auto;
+}
+.box-part{
+    width: 100%;
+    text-align: center;
+}
+.box{
+    padding: 30px;
+}
+.box img{
+    width: 40px;
+}
+.box h4{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box p{
+    line-height: 25px;
+}
+.box h4:hover{
+     background:linear-gradient(to right, #8292FF,#67BBF7);
+     transition: all 0.7s;
+     color: #fff !important;
+    
+     
+}
+/* sec three end */
+/* sec four start */
+#sec4{
+    background:linear-gradient(to right, #8292FF,#67BBF7) ;
+    padding: 100px ;
+    text-align: center;
+    color: #fff;
+}
+div h3{
+    font-size: 35px;
+}
+#sec4 p{
+    color: #fff;
+}
+/* sec four end  */
+/* sec five start  */
+#sec5{
+    padding: 100px;
+    background-color: #FEFFFE;
+    text-align: center;
+}
+.head-writting-part h1{
+    padding: 20px 0px;
+    font-size: 40px;
+    color: rgb(34,34,34);
+}
+.head-writting-part ul li{
+    display: inline-block;
+    padding: 10px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.head-writting-part ul li .a{
+    position: relative;
+}
+.head-writting-part ul li .a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #222222;
+    transition:0.25s ease-out;
+}
+.head-writting-part ul li .a:hover::before{
+    width: 50%;
+}
+#sec5 a{
+    color: #222222;
+}
+.image-box figure{
+    width: 90%;
+    height: 330px;
+    background:linear-gradient(TO right,#8292FF 40%,#67BBF7 100%);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.image-box:hover figure > img{
+    opacity: 0.3;
+    transition: 0.5s ease-out;
+}
+.image-box img{
+    width: 100%;
+    height: 330px;
+}
+.image-box h3{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.image-box p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+/* sec Five end  */
+/* sec six start  */
+#sec6{
+    background-color: #F9F8FE;
+    padding: 100px;
+}
+.writting-part{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.writting-part h1{
+    padding: 20px 0px;
+}
+.slider-box{
+    background-color: #FEFEFF;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.slider-box img{
+    width: 80px;
+    padding: 20px;
+}
+.slider-box p{
+    padding: 15px 0px;
+    font-size: 15px;
+}
+.slider-box a {
+    color: #222222;
+    font-size: 11px;
+}
+.slider-box:hover > .slider-pragraph a{
+    color: #8590FE;
+    transition: ease-out 0.4s;
+}
+/* sec six end */
+/* sec seven start  */
+#sec7{
+    text-align: center;
+    padding: 100px 50px;
+}
+.buy-writting-part{
+    padding: 20px 0px 100px 0px;
+}
+.buy-writting-part h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.buy-btn{
+    background-color: #F9F9FF;
+    padding: 30px 0px 20px 0px;
+}
+.single-buy-part h1{
+    border: 35px solid rgba(132,144,255,.1);
+    border-radius: 100%;
+    width: 148px;
+    height: 148px;
+    display: grid;
+    margin: auto;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 10px;
+}
+.single-buy-part h4{
+    padding: 20px 0px 10px ;
+}
+.single-buy-list{
+    padding: 30px;
+}
+.single-buy-list p{
+    padding-bottom: 10px;
+}
+.single-buy-list .btn1{
+    margin-top: 30px;
+    background-color: transparent;
+    border: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.underline{
+    border-top: 1px solid ;
+}
+.single-buy-list figure h2{
+    display: none;
+    margin-top: 25px;
+    padding: 8px;
+    border: 1px solid transparent;
+    background-color: #fff;
+}
+.buy-btn:hover .btn1{
+    display: none;
+    transition: ease-out 0.4s;
+}
+.buy-btn:hover{
+    color: #fff;
+    background: linear-gradient(to right, #8292FF,#67BBF7);
+    transition: ease-out 0.4s;
+    height: 150%;
+    margin-top: -15px ;
+    padding-bottom: 40px;
+}
+.buy-btn:hover figure h2{
+    display: block;
+    color: #222222;
+}
+.buy-btn:hover p{
+    color: #fff;
+    transition: ease-out 0.4s;
+}
+.buy-btn:hover .single-buy-part h1 {
+    border:35px solid rgba(255, 255, 255, 0.446);
+}
